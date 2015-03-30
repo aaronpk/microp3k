@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6d741b0391c191c9d8684d95f9d38a30",
+    "hash": "01075b57a925cb09a8d53c3db6397566",
     "packages": [
         {
             "name": "barnabywalters/mf-cleaner",
@@ -136,6 +136,45 @@
                 "microformats2"
             ],
             "time": "2013-12-23 00:14:58"
+        },
+        {
+            "name": "indieweb/mention-client",
+            "version": "0.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/indieweb/mention-client-php.git",
+                "reference": "1de31c02e388d38ea789bab0b544e28316a3dedf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/indieweb/mention-client-php/zipball/1de31c02e388d38ea789bab0b544e28316a3dedf",
+                "reference": "1de31c02e388d38ea789bab0b544e28316a3dedf",
+                "shasum": ""
+            },
+            "require": {
+                "mf2/mf2": "0.2.*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "IndieWeb": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Parecki",
+                    "email": "aaron@parecki.com",
+                    "homepage": "http://aaronparecki.com/"
+                }
+            ],
+            "description": "Client library for sending webmention and pingback notifications",
+            "homepage": "https://github.com/indieweb/mention-client-php",
+            "time": "2014-05-06 01:43:13"
         },
         {
             "name": "j4mie/idiorm",

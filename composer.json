@@ -1,5 +1,6 @@
 {
   "require": {
+    "indieweb/mention-client": ">=0.4.4",
     "slim/slim": "2.2.*",
     "saltybeagle/savant3": "dev-master",
     "j4mie/idiorm": "1.4.*",
@@ -14,6 +15,8 @@
     "files": [
       "lib/savant.php",
       "lib/config.php",
+      "lib/DeferredTask.php",
+      "lib/PublishTask.php",
       "lib/helpers.php",
       "lib/db_helpers.php",
       "lib/request.php"

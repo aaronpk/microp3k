@@ -57,6 +57,8 @@ $app->post('/micropub', function() use($app){
 
   $location = 'http://' . $user->domain . '/entry/' . $entry->id;
 
+  DeferredTask::queue('PublishTask', 'publish', $entry->id);
+
   $app->response()['Location'] = $location;
   api_response($app, 'The post was created successfully! You can see it here:'."\n".$location, 201);
 });
