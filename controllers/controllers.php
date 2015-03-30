@@ -56,6 +56,7 @@ $app->get('/entry/:entry_id', function($entry_id) use($app) {
       'entry' => $entry,
       'user' => $user
     ]);
+    $app->response()->body($html);
   }
 });
 

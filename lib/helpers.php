@@ -8,10 +8,12 @@ ORM::configure('password', Config::$dbPassword);
 
 function render($page, $theme, $data) {
   global $app;
-  return $app->render('themes/'.$theme.'/layout.php', array_merge($data, array(
+  ob_start();
+  $app->render('themes/'.$theme.'/layout.php', array_merge($data, array(
     'page' => 'themes/'.$theme.'/'.$page,
     'page_name' => $page
   )));
+  return ob_get_clean();
 };
 
 function partial($template, $theme, $data=[], $debug=false) {
