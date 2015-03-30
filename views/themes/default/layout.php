@@ -1,0 +1,1 @@
+<?= $this->fetch($this->page . '.php') ?>
