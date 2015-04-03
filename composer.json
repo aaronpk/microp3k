@@ -1,6 +1,6 @@
 {
   "require": {
-    "indieweb/mention-client": ">=0.4.4",
+    "indieweb/mention-client": ">=0.4.7",
     "slim/slim": "2.2.*",
     "saltybeagle/savant3": "dev-master",
     "j4mie/idiorm": "1.4.*",

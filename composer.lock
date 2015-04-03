@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "01075b57a925cb09a8d53c3db6397566",
+    "hash": "72fc423ab73cb06cd9af15edb069066e",
     "packages": [
         {
             "name": "barnabywalters/mf-cleaner",
@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "724b1fcfb88b7bbbbd92fddd5deb7518c3988267"
+                "reference": "0cb1d5a8c4efd6576814247617fc8463042c6fc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/724b1fcfb88b7bbbbd92fddd5deb7518c3988267",
-                "reference": "724b1fcfb88b7bbbbd92fddd5deb7518c3988267",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/0cb1d5a8c4efd6576814247617fc8463042c6fc7",
+                "reference": "0cb1d5a8c4efd6576814247617fc8463042c6fc7",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
             ],
             "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
             "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2015-02-12 15:57:00"
+            "time": "2015-04-01 18:56:25"
         },
         {
             "name": "indieweb/link-rel-parser",
@@ -139,16 +139,16 @@
         },
         {
             "name": "indieweb/mention-client",
-            "version": "0.4.5",
+            "version": "0.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/indieweb/mention-client-php.git",
-                "reference": "1de31c02e388d38ea789bab0b544e28316a3dedf"
+                "reference": "15271f4988c7bf661896fad188fdf0bf91877a7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/indieweb/mention-client-php/zipball/1de31c02e388d38ea789bab0b544e28316a3dedf",
-                "reference": "1de31c02e388d38ea789bab0b544e28316a3dedf",
+                "url": "https://api.github.com/repos/indieweb/mention-client-php/zipball/15271f4988c7bf661896fad188fdf0bf91877a7f",
+                "reference": "15271f4988c7bf661896fad188fdf0bf91877a7f",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,7 @@
             ],
             "description": "Client library for sending webmention and pingback notifications",
             "homepage": "https://github.com/indieweb/mention-client-php",
-            "time": "2014-05-06 01:43:13"
+            "time": "2015-04-03 11:21:06"
         },
         {
             "name": "j4mie/idiorm",
