@@ -45,7 +45,14 @@ $app->post('/micropub', function() use($app){
 
   $entry = db\create('entries');
   $entry->user_id = $user->id;
-  $entry->published = date('Y-m-d H:i:s');
+
+  if(k($params, 'published')) {
+    $date = new DateTime(k($params, 'published'));
+    $entry->published = date('Y-m-d H:i:s', strtotime(k($params, 'published')));
+    $entry->tz_offset = $date->getOffset();
+  } else {
+    $entry->published = date('Y-m-d H:i:s');
+  }
 
   if(k($params, 'in-reply-to'))
     $entry->in_reply_to = $params['in-reply-to'];
